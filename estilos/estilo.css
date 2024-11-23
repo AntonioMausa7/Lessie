@@ -1,13 +1,13 @@
 html{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: darkgray;
+    background-color: red;
     align-items: center;
 }
 body{
     width:600px;
     margin: 0 auto;
-    background-color: lightgrey;
+    background-color: ff4444;
     padding: 0 40px 40px 40px;
     border: 5px solid black;
 }
