@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Lessie.com</title>
+    <link rel="stylesheet" href="gestilos/galeria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="gimagens/lessieicon.ico" type="image/x-icon">
+</head>
+<body id="Body">
+
+    <Header>
+        <h1 id="titp"><a href="../home/index.html">Lessie.com</a></h1>
+    </Header>
+
+    <nav>
+       
+            <a href="../home/index.html">Home</a>
+            <a href="index.html">Galeria</a>
+            <a href="../sobre/index.html">Sobre</a>
+            <a href="" onclick="Sair()">Sair</a>
+    </nav>
+
+    <main>
+
+        <h2>Galeria</h2>
+
+        <section onclick="">
+
+        <h3>Fotos da Lessie</h3>
+
+        <p>
+        <img id="n1" src="gimagens/lessie1.jpg" onclick="abrir(1)">
+        <img id="n2" src="gimagens/lessie2.jpg" onclick="abrir(2)">
+        <img id="n3" src="gimagens/lessie3.jpg" onclick="abrir(3)">
+        <img id="n4" src="gimagens/lessie4.jpg" onclick="abrir(4)">
+        <img id="n5" src="gimagens/lessie5.jpg" onclick="abrir(5)">
+        <img id="n6" src="gimagens/lessie6.jpg" onclick="abrir(6)">
+        </p>
+        
+    </section>
+    </main>
+        <div id="bte"><input  type='button' value="&lt;" id="bk"></div> 
+        <div id="btd"><input type='button' value='&gt;' id="fd"></div>
+    <footer>
+        <p id="la">
+           <select name="lan" id="lan">
+            <option value="ptbr">Português-BR</option>
+           </select>
+        </p>
+        <p id="cpy">&copy;AntonioMausa7. Todos os Direitos Reservados.</p>
+    </footer>
+<script src="gscripts/galeria.js"></script>
+</body>
+</html>
