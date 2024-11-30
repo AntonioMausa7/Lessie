@@ -1,0 +1,31 @@
+html{
+    font-size: medium;
+    font-family: "Sour Gummy",sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+header{
+    text-align: center;
+    width: auto;
+    font-size: 45pt;
+    margin: 100pt 0 -90px 0;
+    
+}
+main{
+    text-align: center;
+    width: auto ;
+}
+#nm{
+    text-align: center;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 10px 15px 10px;
+    letter-spacing: 3px;
+    font-size: 50pt;
+    font-family: 'Sour Gummy',sans-serif;
+}
+footer{
+    text-align: center;
+    margin-top: 230pt;
+    font-size: small;
+    font-weight: 70;
+}

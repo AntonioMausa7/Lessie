@@ -1,0 +1,52 @@
+html{
+    background-color: rgb(240, 240, 240);
+    font-size: 20pt;
+    font-family: 'Sour Gummy', sans-serif;
+    scrollbar-color: red, red;
+}
+h1#titp{
+    margin: 20pt 0px 0pt 60pt;
+    width: 240px;
+
+}
+a{
+    color:black;
+    text-decoration-line: none;
+}
+nav{
+    word-spacing: 100pt;
+    margin: -35pt 0 0pt 343.6pt;
+    padding:0;
+    width: 800px;
+    font-size: larger;
+    font-weight: 500;
+}
+main{
+    background-color: xbisque;
+    margin:50px -10px 0 -10px;
+    padding: 0px 0 0 0;
+    width: 1500px;
+    height: 630pt;
+    text-align: center;
+}
+img{
+    width: 700px;
+    border-radius: 20px;
+}
+footer{
+    margin:-20px 40px -30px -10px;
+    padding: 0 0 0 0px;
+    background-color: xrgb(103, 89, 89);
+    width: 1500px;
+    height: 120px;
+    text-align: center;
+}
+#la{
+    font-size: medium;
+    padding: 30px 0 0 0;
+}
+#cpy{
+    font-family: arial;
+    font-size: small;
+    padding: 10px 0 0 0;
+}
